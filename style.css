@@ -313,14 +313,14 @@ span:nth-child(1) {
 
 .fog::before,
 .fog div::before {
-    background-image: url("/img/fog-1.png");
+    background-image: url("img/fog-1.png");
     animation: fogmove 20s linear 0s infinite;
     opacity: .4;
 }
 
 .fog::after,
 .fog div::after {
-    background-image: url("/img/fog-2.png");
+    background-image: url("img/fog-2.png");
     animation: fogmove 10s linear 0s infinite;
     opacity: .5;
 }
